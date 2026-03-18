@@ -16,4 +16,6 @@
 - Cleaned up hero section: removed nav name, GitHub button, view my work button
 - Tightened spacing between sections
 - Projects section left empty pending selection of repos to feature
+- Added blog section to index.html (last 5 posts)
+- Scaffolded blog/index.html (all posts) and 3 post pages: week-1-claude-runbook, week-2-kubectl-debug, week-3-gomaxprocs (placeholder content)
 

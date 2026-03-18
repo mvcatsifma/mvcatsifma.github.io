@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Thomas Delnoij</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#projects">Projects</a></li>
+        <li><a href="../index.html#blog">Blog</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>All posts</h2>
+      <ul class="blog-list">
+        <li>
+          <a href="week-3-gomaxprocs.html">GOMAXPROCS — don't let the container lie to your Go runtime</a>
+          <span class="blog-date">Week 3</span>
+        </li>
+        <li>
+          <a href="week-2-kubectl-debug.html">kubectl debug — a better way to troubleshoot running pods</a>
+          <span class="blog-date">Week 2</span>
+        </li>
+        <li>
+          <a href="week-1-claude-runbook.html">Building a Claude runbook for daily engineering work</a>
+          <span class="blog-date">Week 1</span>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Thomas Delnoij</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
