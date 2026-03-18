@@ -12,4 +12,8 @@
 - Installed `gh` CLI and authenticated with the PAT
 - Configured GitHub MCP plugin for Claude Code using the PAT
 - Reviewed all 45 GitHub repositories one by one; deleted 25, kept 20
+- Updated site with real content: profile picture (from GitHub avatar), name, tagline, subtitle, about section (from LinkedIn)
+- Cleaned up hero section: removed nav name, GitHub button, view my work button
+- Tightened spacing between sections
+- Projects section left empty pending selection of repos to feature
 
