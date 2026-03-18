@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <span class="nav-name">Your Name</span>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="hero">
+      <h1>Hi, I'm <span class="accent">Your Name</span></h1>
+      <p class="tagline">Software engineer. Builder of things.</p>
+      <div class="hero-links">
+        <a href="#projects" class="btn">View my work</a>
+        <a href="https://github.com/yourusername" class="btn btn-outline" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I'm a software engineer based in [City]. I enjoy building clean, reliable software and
+        working on problems that matter. Currently focused on [area of interest].
+      </p>
+      <p>
+        When I'm not coding, you can find me [hobby / interest].
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+
+        <article class="project-card">
+          <h3>Project One</h3>
+          <p>A short description of what this project does and why it's interesting.</p>
+          <div class="tags">
+            <span>Go</span>
+            <span>PostgreSQL</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/yourusername/project-one" target="_blank" rel="noopener">GitHub →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Project Two</h3>
+          <p>A short description of what this project does and why it's interesting.</p>
+          <div class="tags">
+            <span>TypeScript</span>
+            <span>React</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/yourusername/project-two" target="_blank" rel="noopener">GitHub →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Project Three</h3>
+          <p>A short description of what this project does and why it's interesting.</p>
+          <div class="tags">
+            <span>Python</span>
+            <span>CLI</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/yourusername/project-three" target="_blank" rel="noopener">GitHub →</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>I'm open to interesting opportunities and conversations.</p>
+      <ul class="contact-list">
+        <li><a href="mailto:you@example.com">you@example.com</a></li>
+        <li><a href="https://github.com/yourusername" target="_blank" rel="noopener">github.com/yourusername</a></li>
+        <li><a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">linkedin.com/in/yourusername</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Your Name</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
