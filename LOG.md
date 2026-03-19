@@ -16,6 +16,10 @@
 - Cleaned up hero section: removed nav name, GitHub button, view my work button
 - Tightened spacing between sections
 - Projects section left empty pending selection of repos to feature
-- Added blog section to index.html (last 5 posts)
+- Added blog section to index.html (last 5 posts); hidden pending content
 - Scaffolded blog/index.html (all posts) and 3 post pages: week-1-claude-runbook, week-2-kubectl-debug, week-3-gomaxprocs (placeholder content)
+- Added ADS and prompts project cards to projects section
+- Renamed repo to `mvcatsifma.github.io`; site now live at https://mvcatsifma.github.io
+- Second round of GitHub repo cleanup: deleted 11 more repos, 8 remaining
+
 

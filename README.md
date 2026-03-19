@@ -1,11 +1,10 @@
 # Site
 
-Personal portfolio site, live at **https://mvcatsifma.github.io/site/**.
+Personal portfolio site, live at **https://mvcatsifma.github.io**.
 
 Plain HTML/CSS/JS, deployed to GitHub Pages via GitHub Actions on push to `main`.
 
 ## TODO
 
-- [ ] Update site contents: replace placeholder name, bio, project cards, and contact links in `index.html`
-- [ ] Make it the org's main page: rename repo to `mvcatsifma.github.io` (GitHub Settings → General → Repository name), then update local remote: `git remote set-url origin git@github.com:mvcatsifma/mvcatsifma.github.io.git`
-- [ ] Add a section for blog posts
+- [ ] Fill in blog post content (week-1-claude-runbook, week-2-kubectl-debug, week-3-gomaxprocs)
+- [ ] Unhide blog section when posts are ready
